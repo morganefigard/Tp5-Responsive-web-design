@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>-->
+		<script src="https://unpkg.com/popper.js@1.14.7/dist/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	</head>
 	<body>
@@ -20,8 +22,13 @@
 						<input type="search" required class="search">
 						<input type="submit" name="submit" value="Rechercher" class="submit">
 					</form>
-					<div class="user col-lg-2 text-right">
-						<a href="#">Luke Chesser</a>
+					<div class="user col-lg-2 text-right dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Luke Chesser</a>
+						<ul class="dropdown-menu">
+						    <li><a href="#">HTML</a></li>
+						    <li><a href="#">CSS</a></li>
+						    <li><a href="#">JavaScript</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -29,7 +36,7 @@
 
 		<div class="container">
 			<div class="row">
-				<aside class="col-lg-2">
+				<aside class="col-lg-2 d-xs-none d-sm-none d-md-block">
 					<h3>Browse</h3>
 					<nav class="browse">
 						<ul class="main">
@@ -60,13 +67,13 @@
 							</div>
 						</div>
 						<div class="stats-links row">
-							<section class="stats col-lg-10">
+							<section class="stats col-lg-10 col-md-10 col-sm-12 col-xs-12">
 								<span>2 Playlists</span>
 								<span>4 Reviews</span>
 								<span>6 Followers</span>
 								<span>13 Following</span>
 							</section>
-							<div class="links col-lg-2 text-right">
+							<div class="links col-lg-2 col-md-2 col-sm-12 col-xs-12">
 								<div>
 									<a href="#">Collection</a>
 									<a href="#">History</a>
