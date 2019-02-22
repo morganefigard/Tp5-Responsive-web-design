@@ -216,11 +216,21 @@ nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
-@media only screen and (max-width: 992px) {
-  /* For tablets: */
-  [class*="sfield"] {
-    background-color: blue;
-    display: none;
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  body {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: medium;
   }
 }
 
@@ -231,23 +241,16 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
   }
 }
 
-/*@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 992px) {
+  /* For tablets: */
+  [class*="sfield"] {
+    background-color: blue;
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
   body {
     font-size: large;
-    color: red;
   }
 }
-
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: medium;
-    color: blue;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  body {
-    font-size: small;
-    color: yellow;
-  }
-}*/
