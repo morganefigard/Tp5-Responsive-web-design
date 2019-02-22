@@ -54,13 +54,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: .5em;
+    font-size: .8em;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
 nav ul li a { 
-    font-size: 1em;
+    font-size: .9em;
     font-weight: normal;
     color: #828c92;
 }
@@ -230,3 +230,24 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     display: none;
   }
 }
+
+/*@media only screen and (max-width: 1400px) {
+  body {
+    font-size: large;
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: medium;
+    color: blue;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: small;
+    color: yellow;
+  }
+}*/
